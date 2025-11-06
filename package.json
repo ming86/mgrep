@@ -10,7 +10,8 @@
     "dev": "npx tsc && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write \"src/**/*.ts\"",
-    "format:check": "prettier --check \"src/**/*.ts\""
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.10.0",
+    "husky": "^9.1.7",
     "prettier": "^3.6.2",
     "typescript": "^5.9.3"
   }

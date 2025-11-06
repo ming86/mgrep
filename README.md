@@ -13,5 +13,6 @@ mgrep --api-key <api-key> --store <store-id> watch
 
 ```bash
 pnpm install
+npx husky init
 pnpm dev
 ```

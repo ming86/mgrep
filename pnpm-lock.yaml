@@ -18,6 +18,9 @@ importers:
       '@types/node':
         specifier: ^24.10.0
         version: 24.10.0
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
@@ -37,6 +40,11 @@ packages:
   commander@14.0.2:
     resolution: {integrity: sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ==}
     engines: {node: '>=20'}
+
+  husky@9.1.7:
+    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   prettier@3.6.2:
     resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
@@ -60,6 +68,8 @@ snapshots:
       undici-types: 7.16.0
 
   commander@14.0.2: {}
+
+  husky@9.1.7: {}
 
   prettier@3.6.2: {}
 
