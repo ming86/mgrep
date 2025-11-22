@@ -7,8 +7,9 @@ import { logout } from "./commands/logout";
 import { search } from "./commands/search";
 import { watch } from "./commands/watch";
 import { installClaudeCode } from "./install/claude-code";
+import { setupLogger } from "./lib/logger";
 
-// utility functions moved to ./utils
+setupLogger();
 
 program
   .version(
